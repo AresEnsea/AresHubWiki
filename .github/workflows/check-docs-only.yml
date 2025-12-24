@@ -15,15 +15,18 @@ jobs:
 
       - name: Check changed files
         run: |
-          # List files changed in the PR
+          # Get list of changed files in the PR
           files=$(git diff --name-only origin/main...HEAD)
           echo "Changed files:"
           echo "$files"
 
-          # Check if any file is outside the docs folder
-          non_docs_files=$(echo "$files" | grep -v '^docs/')
+          # Filter out files in docs/
+          non_docs_files=$(echo "$files" | grep -v '^docs/' || true)
+
           if [ -n "$non_docs_files" ]; then
             echo "Error: PR modifies files outside docs/:"
             echo "$non_docs_files"
             exit 1
+          else
+            echo "All changed files are in docs/, check passed!"
           fi
