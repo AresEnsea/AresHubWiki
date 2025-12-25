@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-# Quick guide to generate a PWM signal with an ST microcontroller
+# PWM
+
+## Quick guide to generate a PWM signal with an ST microcontroller
 
 ## What is it? 
 PWM stands for Pulse-width modulation, which is any method of representing a signal as a rectangular wave with a varying duty cycle. So a PWM signal is simply a rectengular wave with a varying duty cycle.
