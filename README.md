@@ -2,19 +2,19 @@ Link to the wiki: https://aresensea.github.io/AresHubWiki/
 
 ## How to contribute as a collaborator 
 
+The wiki uses Markdown(`.md`) files. They are located at `docs/`, and if needed, images can be added to `docs/images`
+
 To keep it simple, only admins are allowed to push directly into the main branch.  
-Other contributors are allowed to add tutorials to the `docs` section only, through Pull Requests.  
+Other contributors are allowed to add tutorials to the `docs` section only, through pull requests.  
 If you have any suggestions for changes outside `docs`, contact an admin.  
 Here is a step by step guide on how to do so.
 
-First, make sure you're on the main branch, and up to date with it:
+First, make sure you're on the main branch, and up to date with it, if you're not up to date, then pull:
 ```bash
 ~/Documents/ENSEA/Ares/AresHubWiki main
-🖎  git status                                        
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
+🖎  git pull            
+Enter passphrase for key '/home/yehiaz/.ssh/id_ed25519': 
+Already up to date.
 ```
 
 Then, switch to a new branch using the `switch` command with the `-c` argument in order to create the new branch:
