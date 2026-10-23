@@ -1,19 +1,10 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+Inauguration:
+  label: Inauguration
+  permalink: /inauguration
+  description: Lancement du nouveau Wiki !
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+Bureau:
+  label: Bureau
+  permalink: /bureau
+  description: Tout ce qui est lié au bureau en gros...
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
